@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import { animateScroll } from "react-scroll";
 import Navbar from "../src/components/molecules/Navbar"
 import Home from "./components/Home";
-import Footer from "./components/Footer";
+import Footer from "../src/components/molecules/Footer";
 
 // import Footer from "./components/organs/Footer";
 

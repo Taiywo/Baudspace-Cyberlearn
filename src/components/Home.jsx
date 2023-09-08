@@ -1,4 +1,4 @@
-import Hero from "./Hero"
+import Hero from "../components/molecules/Hero"
 import Course from "./pages/Course"
 import Faq from "./pages/Faq"
 
@@ -21,10 +21,10 @@ const Home = () => {
         <div className="font-mono" id="home">
             <Hero />
             <Cyberjourney/>
-            <Whyus/>
             <Course/>
             <Program />
             <Requirement/>
+            <Whyus/>
             <Faq/>
             <Whatsapp/>
             
