@@ -1,3 +1,4 @@
+import { Fade } from "react-awesome-reveal"
 import { courses } from "../data/Data"
 
 export default function Course() {
@@ -12,7 +13,8 @@ export default function Course() {
         <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
           {
             courses.map((course, index) =>
-              <div>
+           <Fade>
+   <div>
                 <div key={index} className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                   
                   {course.icon}
@@ -21,6 +23,8 @@ export default function Course() {
                 <p className="text-gray-500 dark:text-gray-400">{course.content}</p>
               </div>
 
+
+           </Fade>
 
             )
           }

@@ -1,9 +1,11 @@
+import { Fade } from "react-awesome-reveal";
 
 export default function Program() {
   return (
 
     <section class="bg-white dark:bg-gray-900 pt-14"  id="program">
-      <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+    <Fade>
+    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Is this Learning Path for me?</h2>
           <p class="mb-4">This program is inclusive and suitable for individuals, particularly those eager to acquire knowledge in cybersecurity and
@@ -22,6 +24,7 @@ export default function Program() {
           <img class="mt-4 w-full lg:mt-56 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2" />
         </div>
       </div>
+    </Fade>
     </section>
   )
 }
