@@ -6,7 +6,7 @@ import { NavHashLink} from "react-router-hash-link"
 import Logo from "../../assets/DarkBG-logo.png"
 
 
-export default function Example() {
+export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const [navBarColor, setNavBarColor] = useState(false)
