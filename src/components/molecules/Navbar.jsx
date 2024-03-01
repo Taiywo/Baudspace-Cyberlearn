@@ -69,7 +69,7 @@ export default function Navbar() {
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end ">
           <a href=" " className="text-sm  font-semibold leading-6 text-white hover:text-gray-400 ">
-            Get Start<span aria-hidden="true" className='pl-5'>&rarr;</span>
+            Get Started<span aria-hidden="true" className='pl-5'>&rarr;</span>
           </a>
         </div>
       </nav>

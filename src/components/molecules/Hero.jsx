@@ -1,10 +1,15 @@
 import React from 'react'
 import Backgroundvideo from "../../assets/video.mp4"
 import { Fade } from "react-awesome-reveal";
+import Button from '../Button';
 
 const Hero = () => {
-  return (
 
+  const handleClick = () => {
+    window.open('https://www.google.com', '_blank');
+  };
+
+  return (
     <section className="bg-white dark:bg-gray-900 relative" id='home'>
       <video className="w-full h-full object-cover absolute inset-0 z-0"
         autoPlay
@@ -24,17 +29,12 @@ const Hero = () => {
         </a>
        </Fade>
         <Fade delay={0e2} cascade damping={1e-1}>
-          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">  Launch Your 6-Figure Remote Cybersecurity Career</h1>
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">  Discover Your Dream Career in Cybersecurity</h1>
         </Fade>
-        <Fade delay={0e5} cascade damping={1e-1}> <p className="mb-8 text-lg font-normal  lg:text-xl sm:px-16 xl:px-48 text-gray-400">Embark on a global journey with the Cybersecurity Specialist Program. No tech background, certifications, or degree needed.
+        <Fade delay={0e5} cascade damping={1e-1}> <p className="mb-8 text-lg font-normal  lg:text-xl sm:px-16 xl:px-48 text-gray-400">Dominate Cybersecurity in Just 90 Days! Achieve Your Dream Job with Our Elite Training Program
         </p></Fade>
-        <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-          <a href=" " className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800  hover:text-gray-400 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
-            Learn more
-            <svg className="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-          </a>
-
-        </div>
+        <Button onClick={handleClick} color="blue" text="Begin Your Six-Figure Journey Now!" />
+      
 
       </div>
     </section>

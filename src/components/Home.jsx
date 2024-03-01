@@ -18,7 +18,7 @@ const Home = () => {
 
 
     return (
-        <div className="font-mono" id="home">
+        <div className="font-montserrat" id="home">
             <Hero />
             <Cyberjourney/>
             <Course/>
