@@ -5,9 +5,7 @@ import Button from '../Button';
 
 const Hero = () => {
 
-  const handleClick = () => {
-    window.open('https://www.google.com', '_blank');
-  };
+ 
 
   return (
     <section className="bg-white dark:bg-gray-900 relative" id='home'>
@@ -33,7 +31,7 @@ const Hero = () => {
         </Fade>
         <Fade delay={0e5} cascade damping={1e-1}> <p className="mb-8 text-lg font-normal  lg:text-xl sm:px-16 xl:px-48 text-gray-400">Dominate Cybersecurity in Just 90 Days! Achieve Your Dream Job with Our Elite Training Program
         </p></Fade>
-        <Button onClick={handleClick} color="blue" text="Begin Your Six-Figure Journey Now!" />
+        <Button   text="Begin Your Six-Figure Journey Now!" />
       
 
       </div>
