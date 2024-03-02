@@ -29,9 +29,9 @@ const Hero = () => {
         <Fade delay={0e2} cascade damping={1e-1}>
           <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">  Discover Your Dream Career in Cybersecurity</h1>
         </Fade>
-        <Fade delay={0e5} cascade damping={1e-1}> <p className="mb-8 text-lg font-normal  lg:text-xl sm:px-16 xl:px-48 text-gray-400">Dominate Cybersecurity in Just 90 Days! Achieve Your Dream Job with Our Elite Training Program
+        <Fade delay={0e5} cascade damping={1e-1}> <p className="mb-8 text-lg font-normal  lg:text-xl sm:px-16 xl:px-48 text-gray-300">Dominate Cybersecurity in Just 90 Days! Achieve Your Dream Job with Our Elite Training Program
         </p></Fade>
-        <Button   text="Begin Your Six-Figure Journey Now!" />
+        <Button   text="Begin Your 6-Figure Journey Now!" />
       
 
       </div>
