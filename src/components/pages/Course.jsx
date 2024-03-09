@@ -15,7 +15,7 @@ export default function Course() {
           {courses.map((course, index) => (
             <Fade>
               <div>
-                <h3 className="mb-2 text-xl font-bold dark:text-white">
+                <h3 className="mb-2 text-xl font-bold text-white">
                   {course.title}
                 </h3>
                 <div key={index}>{course.image}</div>
@@ -24,7 +24,7 @@ export default function Course() {
           ))}
         </div> */}
 
-        <div className="md:grid lg:grid-cols-3 md:gr lg:grid-rows-4 lg:gap-12">
+        <div className="md:grid lg:grid-cols-3 md:grid-cols-2 grid grid-cols-1 lg:grid-rows-4 lg:gap-6 md:gap-4 md:grid-rows-5 ">
           <div className="row-span-2">
             <img
               class="w-full rounded-lg"
@@ -47,33 +47,39 @@ export default function Course() {
             />
           </div>
           <div className="col-start-2 row-start-1 w-full round-lg bg-blue-950">
-            <h3 className="mb-2 text-xl text-center py-6 px-2 font-bold dark:text-white">
-              Are you feeling trapped in a stagnant job that no longer aligns
-              with your goals or vision for the future?
+            <h3 className="mb-2 text-xl text-center py-6 px-2 font-bold text-white">
+              Feeling trapped in a stagnant job that no longer aligns with your
+              goals or vision for the future?
             </h3>
           </div>
           <div className="row-start-3 bg-blue-950 ">
-            <h3 className="mb-2 text-xl text-center  py-10 font-bold dark:text-white">
-              Are you ready to skyrocket your earnings and achieve six-figure
-              success in record time?
+            <h3 className="mb-2 text-xl text-center  py-10 font-bold text-white">
+              Ready to skyrocket your earnings and achieve six-figure success in
+              record time?
             </h3>
           </div>
           <div className="col-start-3 row-start-3 bg-blue-950">
-            <h3 className="mb-2 text-xl text-center py-6 px-2 font-bold dark:text-white">
-              Are you eager to kickstart a career in a dynamic field that offers
-              diverse career trajectories and endless possibilities for
-              professional advancement?
+            <h3 className="mb-2 text-xl text-center py-6 px-2 font-bold text-white">
+              Eager to kickstart a career in a dynamic field that offers diverse
+              career trajectories and endless possibilities for professional
+              advancement?
             </h3>
           </div>
           <div className="col-start-3 row-start-4 bg-blue-950">
-            <h3 className="mb-2 text-xl text-center py-6 px-2 font-bold dark:text-white">
-            Ready to make a bold career move even without a degree or prior experience in IT? 
+            <h3 className="mb-2 text-xl text-center py-6 px-2 font-bold text-white">
+              Ready to make a bold career move even without a degree or prior
+              experience in IT?
             </h3>
           </div>
           <div className="col-start-1 row-start-4 bg-blue-950">
-            <h3 className="mb-2 text-xl text-center py-6 px-2 font-bold dark:text-white">
-              Are you feeling trapped in a stagnant job that no longer aligns
-              with your goals or vision for the future?
+            <h3 className="mb-2 text-xl text-center py-6 px-2 font-bold text-white">
+              Feeling trapped in a stagnant job that no longer aligns with your
+              goals or vision for the future?
+            </h3>
+          </div>
+          <div className="col-start-2 row-start-4 bg-blue-950">
+            <h3 className="mb-2 text-xl text-center m-auto py-6 px-2 font-bold text-white">
+              Simply tired of earning below your potential.
             </h3>
           </div>
         </div>
