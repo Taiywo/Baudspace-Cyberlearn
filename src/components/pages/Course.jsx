@@ -84,7 +84,7 @@ export default function Course() {
           </div>
         </div>
 
-        <p className="text-gray-500 sm:text-xl pt-9 dark:text-gray-200 text-center">
+        <p className="text-gray-800 sm:text-xl pt-9 dark:text-gray-200 text-center">
           Join us now if you're seeking profound change and growth. Our tailored
           training program is designed to maximize your potential and unlock new
           opportunities. Don't wait any longer – take the first step towards a
