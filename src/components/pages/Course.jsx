@@ -1,5 +1,4 @@
 import { Fade } from "react-awesome-reveal";
-import { courses } from "../data/Data";
 import Button from "../Button";
 
 export default function Course() {
@@ -7,7 +6,7 @@ export default function Course() {
     <section className="bg-white dark:bg-gray-900 pt-14" id="course">
       <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div className="max-w-screen-md mb-8 lg:mb-16">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+          <h2 className="mb-4 lg:text-4xl text-3xl  tracking-tight font-extrabold text-gray-900 dark:text-white">
             Ready to transform your life?{" "}
           </h2>
         </div>
@@ -15,7 +14,7 @@ export default function Course() {
           {courses.map((course, index) => (
             <Fade>
               <div>
-                <h3 className="mb-2 text-xl font-bold text-white">
+                <h3 className="text-lg font-bold text-white">
                   {course.title}
                 </h3>
                 <div key={index}>{course.image}</div>
@@ -46,45 +45,48 @@ export default function Course() {
               alt="office content 1"
             />
           </div>
-          <div className=" row-start-2 md:col-start-2 md:row-start-1 lg:row-span-2 lg:col-start-2 lg:row-start-1 w-full round-lg bg-blue-950">
-            <h3 className="mb-2 text-xl text-center py-6 px-2 font-bold text-white">
+      
+          <div className=" row-start-2 md:col-start-2 md:row-start-1 lg:col-start-2 lg:row-start-1 w-full round-lg bg-blue-950">
+            <h3 className="text-lg text-center py-10 px-2 font-bold text-white">
               Feeling trapped in a stagnant job that no longer aligns with your
               goals or vision for the future?
             </h3>
           </div>
-          <div className="row-start-3 md:col-start-2 md:row-start-2 lg:row-start-3 bg-blue-950 ">
-            <h3 className="mb-2 text-xl text-center  py-10 font-bold text-white">
+          <div className="row-start-3 md:col-start-2 md:row-start-2 lg:row-start-3 m lg:col-start-1 mb-10 bg-blue-950 ">
+            <h3 className="text-lg text-center py-10 px-2 font-bold text-white">
               Ready to skyrocket your earnings and achieve six-figure success in
               record time?
             </h3>
           </div>
           <div className="row-start-5 md:col-start-1 md:row-start-3 lg:col-start-3 lg:row-start-3 bg-blue-950">
-            <h3 className="mb-2 text-xl text-center py-6 px-2 font-bold text-white">
+            <h3 className="text-lg text-center py-10 px-2 font-bold text-white">
               Eager to kickstart a career in a dynamic field that offers diverse
               career trajectories and endless possibilities for professional
               advancement?
             </h3>
           </div>
           <div className="row-start-6 md:col-start-1 md:row-start-4 lg:col-start-3 lg:row-start-4 bg-blue-950">
-            <h3 className="mb-2 text-xl text-center py-6 px-2 font-bold text-white">
+            <h3 className="text-lg text-center py-10 px-2 font-bold text-white">
               Ready to make a bold career move even without a degree or prior
               experience in IT?
             </h3>
           </div>
           <div className="row-start-8 md:col-start-2 md:row-start-5 lg:col-start-1 lg:row-start-4 bg-blue-950">
-            <h3 className="mb-2 text-xl text-center py-6 px-2 font-bold text-white">
+            <h3 className="text-lg text-center py-10 px-2 font-bold text-white">
               Feeling trapped in a stagnant job that no longer aligns with your
               goals or vision for the future?
             </h3>
           </div>
           <div className="row-start-9 md:col-start-2 md:row-start-6 lg:col-start-2 lg:row-start-4 bg-blue-950">
-            <h3 className="mb-2 text-xl text-center m-auto py-6 px-2 font-bold text-white">
+            <h3 className="text-lg text-center m-auto py-10 px-2 font-bold text-white">
               Simply tired of earning below your potential.
             </h3>
           </div>
+          
+          
         </div>
 
-        <p className="text-gray-800 sm:text-xl pt-9 dark:text-gray-200 text-center">
+        <p className="text-gray-800 sm:text-lg pt-9 dark:text-gray-200 text-center">
           Join us now if you're seeking profound change and growth. Our tailored
           training program is designed to maximize your potential and unlock new
           opportunities. Don't wait any longer – take the first step towards a
