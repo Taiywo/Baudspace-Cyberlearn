@@ -7,12 +7,12 @@ export default function Program() {
       id="program"
     >
       <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl  lg:py-16 lg:px-6">
-        <div class="font-light text-gray-500  dark:text-gray-400 ">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+        <div class="font-light text-gray-500  dark:text-gray-200 ">
+          <h2 class="mb-4 text-2xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Unlock Your Cybersecurity Potential with Baudspace Cyberlearn
           </h2>
           <Fade>
-            <p class="mb-4 text-gray-800  md:text-xl pt-9 dark:text-gray-200">
+            <p class="mb-4 text-gray-800  md:text-xl pt-9 dark:text-gray-">
               Empower your cybersecurity journey with Baudspace Cyberlearn as
               your trusted guide. Gain exclusive access to expert-led training
               sessions. Elevate your expertise and propel your career forward
@@ -86,7 +86,7 @@ export default function Program() {
           </div>
         </div>
 
-        <div className="w-full lg:pt-80 md:pt-20 placeholder-stone-100">
+        <div className="w-full lg:pt-80 pt-400 placeholder-stone-100">
           <h2 class="mb-4 lg:text-4xl text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Uncover the Wealth of Opportunities in Cybersecurity Salaries
           </h2>
